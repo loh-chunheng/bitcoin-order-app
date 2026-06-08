@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - githubcicd
+      - 'feature/**'
 jobs:
   ci:
     runs-on: ubuntu-latest
